@@ -1,4 +1,21 @@
-# Ideas
+# Result
+Ranked 2ed out of 469 teams, solo team.
+
+# About
+This competition aims for training natural language models to classify each sentence in an abstract of a computer science paper (Background, Objectives, Methods, Results, Conclusions, Others). Sentences can have multiple classes. For example: A sentence can be both Objective and Methods.
+
+# Dataset
+* 47,000 abstracts obtained from arXiv, 7,000 for training, 20,000 for public test set, and 20,000 withhold for private test set.
+
+# Techniques used
+* Tensorflow 1.15
+* Transfer learning: bert, scibert, biobert, xlnet.
+
+# Leaderboard
+https://tbrain.trendmicro.com.tw/Competitions/Details/8
+
+# Website
+https://moeaincu.wixsite.com/aicup/ai-cup-2019
 
 # Implemented
 * lock bert variables until epoch 3
